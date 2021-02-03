@@ -13,6 +13,7 @@ Once connected it serarches for an IP address on the network using DHCP. When an
 
 Now you can use the Python script to control the motor.
 
+![PCB raw B](/images/animation.gif)
 ![PCB raw B](/images/3d_board_back.png)
 ![PCB raw B](/images/3d_board_front.png)
 ![PCB raw B](/images/board.png)
