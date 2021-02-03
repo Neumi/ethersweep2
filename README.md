@@ -1,5 +1,8 @@
 # ethersweep
 Ethernet + UDP + Json motor controller. Based on open source soft- and hardware.
+Version2 has an built in AS5600 magnetic encoder for position feedback, the option for an END-stop for homing and an E-stop -just in case.
+The controller uses 8.5V to 12V from an XT60 connector.
+
 
 ## What it does
 Ethersweep is a simple to use ethernet connected stepper motor driver. It lets you use JSON formatted string to controll stpper motors via Ethernet. 
@@ -10,8 +13,11 @@ Once connected it serarches for an IP address on the network using DHCP. When an
 
 Now you can use the Python script to control the motor.
 
-![PCB raw B](/img/motor_gif.gif)
-
+![PCB raw B](/images/3d_board_back.png)
+![PCB raw B](/images/3d_board_front.png)
+![PCB raw B](/images/board.png)
+![PCB raw B](/images/ethersweep2_1.jpg)
+![PCB raw B](/images/ethersweep2_2.jpg)
 
 ## ALL YOU NEED TO DRIVE A STEPPER MOTOR WITH PYTHON:
 
