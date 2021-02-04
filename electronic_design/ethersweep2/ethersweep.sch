@@ -129,9 +129,9 @@ Wire Wire Line
 	8700 1900 8800 1900
 Wire Wire Line
 	8800 1900 8800 2000
-Text GLabel 2200 1250 2    50   Input ~ 0
+Text GLabel 2200 3250 2    50   Input ~ 0
 ENDSTOP
-Text GLabel 2200 1350 2    50   Input ~ 0
+Text GLabel 2200 3350 2    50   Input ~ 0
 ESTOP
 $Comp
 L Connector:AVR-ISP-6 J1
@@ -188,9 +188,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 1650 2200 1650
 Wire Wire Line
-	1950 1250 2200 1250
+	1950 1350 2200 1350
 Wire Wire Line
-	2200 1350 1950 1350
+	2200 1450 1950 1450
 $Comp
 L AS5600:AS5600 U5
 U 1 1 607DA193
@@ -331,11 +331,11 @@ Wire Wire Line
 	1350 750  1450 750 
 Wire Wire Line
 	1350 750  1350 900 
-Text GLabel 2200 3250 2    50   Input ~ 0
+Text GLabel 2200 1450 2    50   Input ~ 0
 CS_ETHERNET
 Wire Wire Line
 	1950 3250 2200 3250
-Text GLabel 2200 3350 2    50   Input ~ 0
+Text GLabel 2200 1350 2    50   Input ~ 0
 RST_ETHERNET
 Wire Wire Line
 	1950 3350 2200 3350
@@ -367,10 +367,6 @@ Text GLabel 2200 2450 2    50   Input ~ 0
 FLT_ETHERNET
 Wire Wire Line
 	1950 2450 2200 2450
-Text GLabel 2200 1450 2    50   Input ~ 0
-SLP_ETHERNET
-Wire Wire Line
-	1950 1450 2200 1450
 $Comp
 L MCU_Microchip_ATmega:ATmega328-AU U2
 U 1 1 604066FF
@@ -2192,33 +2188,6 @@ F 3 "" H 7600 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J7
-U 1 1 618AEEEB
-P 6550 4100
-F 0 "J7" V 6488 3812 50  0000 R CNN
-F 1 "Conn_01x04_Female" V 6397 3812 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6550 4100 50  0001 C CNN
-F 3 "~" H 6550 4100 50  0001 C CNN
-	1    6550 4100
-	0    -1   -1   0   
-$EndComp
-Text GLabel 6750 4500 3    50   Input ~ 0
-SDA
-Text GLabel 6650 4500 3    50   Input ~ 0
-SCL
-Wire Wire Line
-	6650 4300 6650 4500
-Wire Wire Line
-	6750 4500 6750 4300
-Wire Wire Line
-	6550 4400 6550 4300
-Text GLabel 6550 4400 3    50   Input ~ 0
-ENDSTOP
-Wire Wire Line
-	6450 4400 6450 4300
-Text GLabel 6450 4400 3    50   Input ~ 0
-ESTOP
-$Comp
 L Mechanical:MountingHole_Pad H8
 U 1 1 6192C950
 P 4800 1600
@@ -2314,32 +2283,21 @@ F 3 "" H 4200 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 1700 4200 1800
-$Comp
-L Connector:Conn_01x04_Female J9
-U 1 1 61992053
-P 6050 4100
-F 0 "J9" V 5988 3812 50  0000 R CNN
-F 1 "Conn_01x04_Female" V 5897 3812 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6050 4100 50  0001 C CNN
-F 3 "~" H 6050 4100 50  0001 C CNN
-	1    6050 4100
-	0    -1   -1   0   
-$EndComp
-Text GLabel 6250 4500 3    50   Input ~ 0
+Text GLabel 5850 4550 3    50   Input ~ 0
 SDA
-Text GLabel 6150 4500 3    50   Input ~ 0
+Text GLabel 5750 4550 3    50   Input ~ 0
 SCL
 Wire Wire Line
-	6150 4300 6150 4500
+	5750 4350 5750 4550
 Wire Wire Line
-	6250 4500 6250 4300
+	5850 4550 5850 4350
 Wire Wire Line
-	6050 4400 6050 4300
-Text GLabel 6050 4400 3    50   Input ~ 0
+	5650 4450 5650 4350
+Text GLabel 5650 4450 3    50   Input ~ 0
 ENDSTOP
 Wire Wire Line
-	5950 4400 5950 4300
-Text GLabel 5950 4400 3    50   Input ~ 0
+	5550 4450 5550 4350
+Text GLabel 5550 4450 3    50   Input ~ 0
 ESTOP
 Wire Wire Line
 	1900 8550 2200 8550
@@ -2411,4 +2369,58 @@ Wire Notes Line
 	15950 8650 11450 8650
 Wire Notes Line
 	11450 8650 11450 4750
+Text GLabel 6050 4550 3    50   Input ~ 0
+RST_ETHERNET
+Text GLabel 5950 4550 3    50   Input ~ 0
+CS_ETHERNET
+$Comp
+L Connector:Conn_01x06_Female J7
+U 1 1 61DB5EEA
+P 5750 4150
+F 0 "J7" V 5688 3762 50  0000 R CNN
+F 1 "Conn_01x06_Female" V 5597 3762 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5750 4150 50  0001 C CNN
+F 3 "~" H 5750 4150 50  0001 C CNN
+	1    5750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J9
+U 1 1 61DB8F12
+P 6700 4150
+F 0 "J9" V 6762 4394 50  0000 L CNN
+F 1 "Conn_01x06_Male" V 6853 4394 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6700 4150 50  0001 C CNN
+F 3 "~" H 6700 4150 50  0001 C CNN
+	1    6700 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 4550 5950 4350
+Wire Wire Line
+	6050 4550 6050 4350
+Text GLabel 6600 4550 3    50   Input ~ 0
+SDA
+Text GLabel 6700 4550 3    50   Input ~ 0
+SCL
+Wire Wire Line
+	6700 4350 6700 4550
+Wire Wire Line
+	6600 4550 6600 4350
+Wire Wire Line
+	6800 4450 6800 4350
+Text GLabel 6800 4450 3    50   Input ~ 0
+ENDSTOP
+Wire Wire Line
+	6900 4450 6900 4350
+Text GLabel 6900 4450 3    50   Input ~ 0
+ESTOP
+Text GLabel 6400 4550 3    50   Input ~ 0
+RST_ETHERNET
+Text GLabel 6500 4550 3    50   Input ~ 0
+CS_ETHERNET
+Wire Wire Line
+	6500 4550 6500 4350
+Wire Wire Line
+	6400 4550 6400 4350
 $EndSCHEMATC
