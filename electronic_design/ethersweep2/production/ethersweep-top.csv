@@ -1,0 +1,52 @@
+### Module positions - created on Monday, February 08, 2021 at 05:54:22 PM ###
+### Printed by Pcbnew version kicad (5.1.8-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                    Package                                   PosX       PosY       Rot  Side
+C1        C100nF                 C_0805_2012Metric                     174.2500   -93.0000    0.0000  top
+C2        C22uF                  CP_EIA-3216-12_Kemet-S                189.0000   -98.0000  180.0000  top
+C3        C1uF                   C_0805_2012Metric                     127.5000   -93.5000  180.0000  top
+C4        C22pF                  C_0402_1005Metric                     136.0000   -94.0000   90.0000  top
+C5        C22pF                  C_0402_1005Metric                     130.0000   -94.0000   90.0000  top
+C6        C100nF                 C_0805_2012Metric                     188.5000  -100.5000  180.0000  top
+C7        C1uF                   C_0805_2012Metric                     127.5000   -96.0000  180.0000  top
+C8        C22pF                  C_0402_1005Metric                     168.5000  -107.5000   90.0000  top
+C9        C100nF                 C_0805_2012Metric                     188.9500  -108.5000  180.0000  top
+C10       C22pF                  C_0402_1005Metric                     174.5000  -107.5000   90.0000  top
+C11       C22uF                  CP_EIA-3216-12_Kemet-S                189.5000  -106.0000  180.0000  top
+C12       C100nF                 C_0805_2012Metric                     179.5000  -105.0000    0.0000  top
+C13       C1uF                   C_0805_2012Metric                     129.0000  -107.5000  270.0000  top
+C14       C1uF                   C_0805_2012Metric                     142.0000   -92.5000    0.0000  top
+C15       C1uF                   C_0805_2012Metric                     133.5000  -108.5000  180.0000  top
+C16       C1uF                   C_0805_2012Metric                     148.5000  -102.5000    0.0000  top
+C17       C1uF                   C_0805_2012Metric                     148.5000  -100.3550    0.0000  top
+C18       C10nF                  C_0805_2012Metric                     197.5000   -90.0000   90.0000  top
+C19       C100nF                 C_0805_2012Metric                     193.5000   -83.0000   90.0000  top
+C20       C100uF                 CP_Elec_8x10                          196.0000  -100.5000    0.0000  top
+C21       C0.47uF                C_0805_2012Metric                     184.0000   -92.0000   90.0000  top
+C22       C100nF                 C_0805_2012Metric                     198.5000   -95.0000    0.0000  top
+C23       C100nF                 C_0805_2012Metric                     198.5000   -93.0000    0.0000  top
+D1        LED                    LED_0805_2012Metric                   148.0000   -83.5000  270.0000  top
+M1        Stepper_Motor_bipolar  PinHeader_2x02_P2.54mm_Vertical_SMD   181.0000   -86.0000    0.0000  top
+R1        R5k                    R_0805_2012Metric                     164.5000   -93.0000   90.0000  top
+R2        R5k                    R_0805_2012Metric                     166.5000   -93.0000   90.0000  top
+R3        R10k                   R_0805_2012Metric                     151.5000   -88.5000    0.0000  top
+R4        R1k                    R_0603_1608Metric                     139.0000  -107.5000   90.0000  top
+R5        R330                   R_0603_1608Metric                     153.0000  -102.5000  180.0000  top
+R6        R330                   R_0603_1608Metric                     153.0000  -100.5000  180.0000  top
+R7        R1k                    R_0603_1608Metric                     139.5000   -93.5000  270.0000  top
+R8        R1k                    R_0603_1608Metric                     138.0000   -93.5000  270.0000  top
+R9        R1k                    R_0603_1608Metric                     136.0000  -107.5000   90.0000  top
+R10       R1k                    R_0603_1608Metric                     137.5000  -107.5000   90.0000  top
+R11       R200mOHM               R_1206_3216Metric                     191.0000   -83.5000   90.0000  top
+R12       R200mOHM               R_1206_3216Metric                     187.5000   -83.5000   90.0000  top
+R13       R330                   R_0603_1608Metric                     148.0000   -86.5000  180.0000  top
+R14       R1k                    R_0603_1608Metric                     164.7500   -98.0000  270.0000  top
+R15       R1k                    R_0603_1608Metric                     179.4000   -95.8000  270.0000  top
+SW1       SW_Push                SW_Push_SPST_NO_Alps_SKRK             151.5000   -84.5000   90.0000  top
+U1        ENC28J60x-SS           SSOP-28_5.3x10.2mm_P0.65mm            134.5000  -100.5000   90.0000  top
+U2        ATmega328-AU           TQFP-32_7x7mm_P0.8mm                  171.5000   -99.5000   90.0000  top
+U4        AMS1117-3.3            SOT-223-3_TabPin2                     196.5000  -108.5000  180.0000  top
+Y1        Crystal_25MHz          Crystal_SMD_3225-4Pin_3.2x2.5mm       133.0000   -93.5000    0.0000  top
+Y2        Crystal_8MHz           Crystal_SMD_3225-4Pin_3.2x2.5mm       171.5000  -107.5000    0.0000  top
+## End

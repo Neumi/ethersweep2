@@ -129,9 +129,9 @@ Wire Wire Line
 	8700 1900 8800 1900
 Wire Wire Line
 	8800 1900 8800 2000
-Text GLabel 2200 1250 2    50   Input ~ 0
+Text GLabel 2200 3250 2    50   Input ~ 0
 ENDSTOP
-Text GLabel 2200 1350 2    50   Input ~ 0
+Text GLabel 2200 3350 2    50   Input ~ 0
 ESTOP
 $Comp
 L Connector:AVR-ISP-6 J1
@@ -188,9 +188,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 1650 2200 1650
 Wire Wire Line
-	1950 1250 2200 1250
+	1950 1350 2200 1350
 Wire Wire Line
-	2200 1350 1950 1350
+	2200 1450 1950 1450
 $Comp
 L AS5600:AS5600 U5
 U 1 1 607DA193
@@ -331,11 +331,11 @@ Wire Wire Line
 	1350 750  1450 750 
 Wire Wire Line
 	1350 750  1350 900 
-Text GLabel 2200 3250 2    50   Input ~ 0
+Text GLabel 2200 1450 2    50   Input ~ 0
 CS_ETHERNET
 Wire Wire Line
 	1950 3250 2200 3250
-Text GLabel 2200 3350 2    50   Input ~ 0
+Text GLabel 2200 1350 2    50   Input ~ 0
 RST_ETHERNET
 Wire Wire Line
 	1950 3350 2200 3350
@@ -367,10 +367,6 @@ Text GLabel 2200 2450 2    50   Input ~ 0
 FLT_ETHERNET
 Wire Wire Line
 	1950 2450 2200 2450
-Text GLabel 2200 1450 2    50   Input ~ 0
-SLP_ETHERNET
-Wire Wire Line
-	1950 1450 2200 1450
 $Comp
 L MCU_Microchip_ATmega:ATmega328-AU U2
 U 1 1 604066FF
