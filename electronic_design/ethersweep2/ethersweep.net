@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/jan/projects/ethersweep2/electronic_design/ethersweep2/ethersweep.sch)
-    (date "2021 February 10, Wednesday 21:19:47")
+    (date "2021 February 10, Wednesday 22:43:28")
     (tool "Eeschema (5.1.8-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -197,6 +197,8 @@
       (value R330)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C23138))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 607DAB06))
@@ -204,6 +206,8 @@
       (value R330)
       (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C23138))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 607DC890))
