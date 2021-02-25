@@ -1,4 +1,4 @@
-# ethersweep2
+# ethersweep
 Ethernet + UDP + Json motor controller. Based on open source soft- and hardware.
 Version2 has an built in AS5600 magnetic encoder for position feedback, the option for an END-stop for homing and an E-stop -just in case.
 The controller uses 8.5V to 12V from a standard XT60 connector.
@@ -14,6 +14,8 @@ Once connected it serarches for an IP address on the network using DHCP. When an
 
 Now you can use the Python script to control the motor.
 
+
+![PCB Photo](/images/prototype201.jpg)
 ![PCB raw B](/images/animation.gif)
 ![PCB raw B](/images/3d_board_front.png)
 ![PCB raw B](/images/3d_board_back.png)
