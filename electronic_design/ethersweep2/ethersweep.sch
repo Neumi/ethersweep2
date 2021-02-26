@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title "ethersweep2"
 Date ""
 Rev "2.0.1"
@@ -2089,8 +2089,6 @@ F 3 "" H 8150 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	11450 4750 15950 4750
-Wire Notes Line
 	15950 4750 15950 8650
 Wire Notes Line
 	15950 8650 11450 8650
@@ -2239,12 +2237,6 @@ S 600  5650 10050 5500
 U 60313690
 F0 "enc28j60_ethernet_controller" 50
 F1 "enc28j60_ethernet_controller.sch" 50
-$EndSheet
-$Sheet
-S 11350 4650 4700 4100
-U 603151F5
-F0 "drv8825_stepper_motor_controller" 50
-F1 "drv8825_stepper_motor_controller.sch" 50
 $EndSheet
 $Comp
 L Connector:TestPoint TX1
@@ -2506,4 +2498,6 @@ F 4 "C115962" H 3450 2250 50  0001 C CNN "LCSC"
 	1    3450 2250
 	0    -1   -1   0   
 $EndComp
+Wire Notes Line
+	11450 4750 15950 4750
 $EndSCHEMATC
