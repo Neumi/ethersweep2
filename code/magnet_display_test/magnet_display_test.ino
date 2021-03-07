@@ -150,7 +150,7 @@ void drawDisplayState(String ip, boolean dhcp, boolean stop, boolean home) {
   }
   oled.print("STOP");
   oled.setInvertMode(false);
-  oled.print(" ")
+  oled.print(" ");
   if (home == true) {
     oled.setInvertMode(true);
   }
