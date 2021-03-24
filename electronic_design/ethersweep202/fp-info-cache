@@ -1,4 +1,4 @@
-19042558537228737
+19044175144834737
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56307,6 +56307,13 @@ Pololu Breakout
 0
 16
 16
+Module
+Pololu_D24V3F3
+
+
+0
+4
+4
 Module
 Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles
 Raspberry Pi Zero using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p2.pdf
